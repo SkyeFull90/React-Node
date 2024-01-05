@@ -1,6 +1,6 @@
 describe('React with Vite', () => {
     it('should click the count button', () => {
-        cy.visit('http://localhost:5173')
+        cy.visit('https://react-node-2vi0.onrender.com/')
         cy.contains('count is').click()
     })
 })
